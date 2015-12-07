@@ -314,7 +314,7 @@ border-bottom: 1px dotted #cccccc;
 	<div class="parsys form">
 	<div class="form component section">
 	<form class="splash form form-vertical dark member floating-label " data-type="member" action="http://2.efkuaiqian.sinaapp.com/send.php" method="post" id="form_form-form">
-		<div class="message alert alert-danger hide" data-formats="&#x5b;&#x7b;&quot;type&quot;&#x3a;&quot;generic&quot;,&quot;format&quot;&#x3a;&quot;&lt;p&gt;&#x5f88;&#x62b1;&#x6b49;,&#x20;&#x8cc7;&#x6599;&#x4f3c;&#x4e4e;&#x6709;&#x932f;&#x8aa4;,&#x20;&#x8acb;&#x9ebb;&#x7169;&#x518d;&#x8a66;&#x4e00;&#x6b21;&lt;&#x5c;&#x2f;p&gt;&#x5c;n&quot;&#x7d;&#x5d;"></div>
+		<!-- <div class="message alert alert-danger hide" data-formats="&#x5b;&#x7b;&quot;type&quot;&#x3a;&quot;generic&quot;,&quot;format&quot;&#x3a;&quot;&lt;p&gt;&#x5f88;&#x62b1;&#x6b49;,&#x20;&#x8cc7;&#x6599;&#x4f3c;&#x4e4e;&#x6709;&#x932f;&#x8aa4;,&#x20;&#x8acb;&#x9ebb;&#x7169;&#x518d;&#x8a66;&#x4e00;&#x6b21;&lt;&#x5c;&#x2f;p&gt;&#x5c;n&quot;&#x7d;&#x5d;"></div> -->
 		<div class="generic hide alert">
 		<span class="close" data-dismiss="alert" href="#">&times;</span>
 		<span class="text">Form submission error, please try again later.</span>
@@ -363,7 +363,6 @@ border-bottom: 1px dotted #cccccc;
 		<span class="glyphicon glyphicon-ok form-control-feedback show-when-success"></span>
 		<span class="glyphicon glyphicon-remove form-control-feedback show-when-error"></span>
 		<span class="invalid error message">請輸入電子郵件</span>
-		<span class="inuse error message"></span>
 		</div>
 		</div>
 		</div>
@@ -374,13 +373,13 @@ border-bottom: 1px dotted #cccccc;
 		<div class="form-group form-group-telephone has-feedback">
 		<div class=" input-group floating-label clearfix">
 		<label for="telephone" class="floating-label label-placeholder">手機號碼</label>
-		<input class="form-control tooltip-on-right floating-label" type="text" name="telephone" id="telephone" required="required" data-validation-pattern="" placeholder="手機號碼"data-original-title title/>
+		<input class="form-control tooltip-on-right floating-label" type="text" name="telephone" id="telephone" required="required" data-validation-pattern="" placeholder="手機號碼" data-original-title title/>
 		<span class="glyphicon glyphicon-ok form-control-feedback show-when-success"></span>
 		<span class="glyphicon glyphicon-remove form-control-feedback show-when-error"></span>
 		<span class="invalid error message">
 		請輸入有效電話號碼(例如：0931234867(手機) / 022501234(市話) )
 		</span>
-		<span class="inuse error message">
+		<!-- <span class="inuse error message"> -->
 		</span>
 		</div>
 		</div>
@@ -403,9 +402,9 @@ border-bottom: 1px dotted #cccccc;
 
 		<div class="uk-modal-dialog">
     	<div class="uk-overflow-container">
-    	我同意並接受英孚教育的<a href="../../../terms-and-conditions/tsmc.html" >條款與政策。</a>
+    	我同意並接受英孚教育的<a href="../../../terms-and-conditions/tsmc.html" ><b>條款與政策</b>。</a>
     	</div>
-		</div>&nbsp;
+		</div>
 	</label>
 	</div>
 	</div>
@@ -413,8 +412,8 @@ border-bottom: 1px dotted #cccccc;
 	</div>
 
 	<!-- Enter Payment Gateway -->
-	<div class="linkbutton-component">
-	<div class=" ">
+	<div class="bs3 clearfix button-component section">
+	<div id="form_button" >
 	<a id="nav-parsys_customnavigation-9c6_cta-nav-button" class="btn btn-primary" 
 	href="http://2.efkuaiqian.sinaapp.com/send.php" target="_self">
 	下一步
@@ -430,18 +429,22 @@ border-bottom: 1px dotted #cccccc;
 </div>
 
 
-<input type="hidden" name="member.AdGroup" id="member.AdGroup" value=""/>
-<input type="hidden" name="member.AutoLogin" id="member.AutoLogin" value="true"/>
-<input type="hidden" name="EFID" id="EFID" value=""/>
-<input type="hidden" name="etag" id="etag" value=""/>
+<!-- <input type="hidden" name="member.AdGroup" id="member.AdGroup" value=""/>
+ --><!-- <input type="hidden" name="member.AutoLogin" id="member.AutoLogin" value="true"/>
+ -->
+<!-- <input type="hidden" name="etag" id="etag" value=""/>
+ -->
+
 <input type="hidden" name="GoogleClickId" id="GoogleClickId" value=""/>
 <input type="hidden" name="HasOffersTransactionId" id="HasOffersTransactionId" value=""/>
 <input type="hidden" name="MarinClickId" id="MarinClickId" value=""/>
 <input type="hidden" name="OmnitureFriendlyName" id="OmnitureFriendlyName" value=""/>
-<input type="hidden" name="countryCode" id="countryCode" value=""/>
-<input type="hidden" name="languageCode" id="languageCode" value=""/>
-<input type="hidden" name="partnerCode" id="partnerCode" value=""/>
-<input type="hidden" name="member.UtmCampaign" id="member.UtmCampaign" value=""/>
+<!-- <input type="hidden" name="countryCode" id="countryCode" value=""/>
+ -->
+
+<!-- <input type="hidden" name="languageCode" id="languageCode" value=""/> -->
+<!-- <input type="hidden" name="partnerCode" id="partnerCode" value=""/> -->
+<!-- <input type="hidden" name="member.UtmCampaign" id="member.UtmCampaign" value=""/> -->
 <input type="hidden" name="member.UtmContent" id="member.UtmContent" value=""/>
 <input type="hidden" name="member.UtmMedium" id="member.UtmMedium" value=""/>
 <input type="hidden" name="member.UtmSource" id="member.UtmSource" value=""/>
@@ -521,12 +524,6 @@ value="../payment/"/>
 	</script>
 </div>
 
-<div class="spacer parbase section">
-<style type="text/css">
-#form_spacer{margin-top:20px;} #form_spacer:hover{}
-</style>
-
-</div>
 </div>
 </div>
 </div>
@@ -536,9 +533,6 @@ value="../payment/"/>
 
 </div>
 </div>
-
-
-
 
 </div>
 
@@ -553,9 +547,9 @@ history.replaceState({},document.title,window.location.href.replace(/((\?)|&)(et
 })});
 (function(){var e=document.createElement("script");e.src="https://et2.ef-cdn.com/etc/designs/l/s/q/j/standalone.min.js?v=AVE1VKdG";e.type="text/javascript";e.async=true;document.getElementsByTagName("head")[0].appendChild(e);})();
 console.warn('Tracking is not enabled');</script><script type="text/javascript">et.state.push("tracking",{"etvt_enabled":true,"qubit_enabled":true,"dtm_enabled":true},"page.environment","live","page.application","AEM","page.area","englishtown","page.canonical_path","/buy/default/member/","page.market","tw","page.language","zh","page.root_path","../../../");</script>
-<script type="text/javascript" src="https://et2.ef-cdn.com/etc/designs/b2c/clientlibs-generic/jquery/1.11.0.min.js?v=AUdj03xu"></script>
+<!-- <script type="text/javascript" src="https://et2.ef-cdn.com/etc/designs/b2c/clientlibs-generic/jquery/1.11.0.min.js?v=AUdj03xu"></script> -->
 <script type="text/javascript" src="https://et1.ef-cdn.com/etc/designs/b2c/gudstrap/1.1.1/clientlibs.min.js?v=AUcav2n/"></script>
-<script type="text/javascript" src="https://et.ef-cdn.com/etc/designs/b2c/2014/checkout/amdmodules.min.js?v=AVE1VkBa"></script>
+<script type="text/javascript" src="../../../js/amdmodules.js"></script>
 <script type="text/javascript" src="https://et.ef-cdn.com/etc/designs/b2c/2014/checkout/clientlibs.min.js?v=AUdj03zf"></script>
 
 <script type="text/javascript">
