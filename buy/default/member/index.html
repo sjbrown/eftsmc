@@ -33,6 +33,10 @@ document.write(String.fromCharCode(60) + 'link href="/etc/designs/b2c/clientlibs
 <link rel="stylesheet" href="https://et1.ef-cdn.com/etc/designs/b2c/custom/tw.zh.min.css?v=AVD+ymPD" type="text/css">
 <link rel="stylesheet" href="https://et1.ef-cdn.com/etc/designs/b2c/custom/tw.zh.buy.default.min.css?v=AUxvBtXD" type="text/css">
 <link rel="stylesheet" href="https://et2.ef-cdn.com/etc/designs/b2c/custom/tw.zh.buy.default.member.min.css?v=AU23N5Qq" type="text/css">
+
+<link rel="stylesheet" href="http://et1.ef-cdn.com/etc/designs/b2c/2013/clientlibs.min.css?v=AVD18xrr" type="text/css">
+<link rel="stylesheet" href="http://et1.ef-cdn.com/etc/designs/b2c/2013/blaze/clientlibs.min.css?v=AVE1Vjpx" type="text/css">
+
 </head>
 
 
@@ -46,6 +50,7 @@ document.write(String.fromCharCode(60) + 'link href="/etc/designs/b2c/clientlibs
 <script type="text/javascript" src="https://et1.ef-cdn.com/etc/clientlibs/foundation/shared.min.js?v=AUHkPlr8"></script>
 <script type="text/javascript" src="https://et2.ef-cdn.com/etc/clientlibs/granite/underscore.min.js?v=AUHkOwNo"></script>
 <script type="text/javascript" src="https://et2.ef-cdn.com/etc/clientlibs/foundation/personalization/kernel.min.js?v=AVE1VjnQ"></script>
+
 <script type="text/javascript">
 $CQ(function() {
 CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
@@ -428,31 +433,28 @@ border-bottom: 1px dotted #cccccc;
 	</div>
 </div>
 
+<!-- Form Hidden Values -->
+<input type="hidden" name="package" id="package" value="EFEXECUTIVE" />
 
-<!-- <input type="hidden" name="member.AdGroup" id="member.AdGroup" value=""/>
- --><!-- <input type="hidden" name="member.AutoLogin" id="member.AutoLogin" value="true"/>
- -->
 <!-- <input type="hidden" name="etag" id="etag" value=""/>
- -->
-
 <input type="hidden" name="GoogleClickId" id="GoogleClickId" value=""/>
 <input type="hidden" name="HasOffersTransactionId" id="HasOffersTransactionId" value=""/>
 <input type="hidden" name="MarinClickId" id="MarinClickId" value=""/>
 <input type="hidden" name="OmnitureFriendlyName" id="OmnitureFriendlyName" value=""/>
-<!-- <input type="hidden" name="countryCode" id="countryCode" value=""/>
- -->
-
-<!-- <input type="hidden" name="languageCode" id="languageCode" value=""/> -->
-<!-- <input type="hidden" name="partnerCode" id="partnerCode" value=""/> -->
-<!-- <input type="hidden" name="member.UtmCampaign" id="member.UtmCampaign" value=""/> -->
+<input type="hidden" name="countryCode" id="countryCode" value=""/>
+<input type="hidden" name="languageCode" id="languageCode" value=""/>
+<input type="hidden" name="partnerCode" id="partnerCode" value=""/>
+<input type="hidden" name="member.UtmCampaign" id="member.UtmCampaign" value=""/>
 <input type="hidden" name="member.UtmContent" id="member.UtmContent" value=""/>
 <input type="hidden" name="member.UtmMedium" id="member.UtmMedium" value=""/>
 <input type="hidden" name="member.UtmSource" id="member.UtmSource" value=""/>
 <input type="hidden" name="member.UtmTerm" id="member.UtmTerm" value=""/>
 <input type="hidden" name="campaign" id="campaign" value=""/>
-<input type="hidden" name="package" id="package" value="" />
 <input id="OnSuccessUrl" type="hidden" name="OnSuccessUrl"
-value="../payment/"/>
+value="../payment/"/> -->
+
+<!-- -->
+
 <div class="parbase tracking form-tracking-sender">
 </div>
 	<script type="text/javascript">
@@ -571,7 +573,12 @@ affiliates.init();
 
 </div>
 <footer class="footer">
-<link rel="stylesheet" href="http://et1.ef-cdn.com/etc/designs/b2c/2013/clientlibs.min.css?v=AVD18xrr" type="text/css">
+<style>
+.bottom-row{
+	border-top:1px solid #282828;
+	border-bottom:1px solid #282828;
+}
+</style>
 
 <div class="container">
 <div class="parsys iparsys footerSection">
